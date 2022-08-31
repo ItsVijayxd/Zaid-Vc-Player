@@ -14,10 +14,10 @@ MESSAGE = "Heya! I'm a music bot hoster/Cloner\n\nI can Host Your Bot On My Serv
 async def hello(client, message: Message):
     buttons = [
            [
-                InlineKeyboardButton("✘ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="t.me/TheUpdatesChannel"),
+                InlineKeyboardButton("✘ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="t.me/PyTgMusicUpdates"),
             ],
             [
-                InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="t.me/TheSupportChat"),
+                InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="t.me/PyTgMusicSupport"),
             ],
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
